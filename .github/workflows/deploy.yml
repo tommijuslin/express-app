@@ -6,8 +6,7 @@ on:
       - main
 
 jobs:
-  publish-docker-hub:
-    name: Publish image to Docker Hub
+  build:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v3
